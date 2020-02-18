@@ -1,0 +1,75 @@
+
+
+.btn {
+    background-color: #1F1F28;
+    border: #1F1F28;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-color: #F6F8FF;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: serif;
+    padding-top: 20px;
+    color: #1F1F28;
+}
+
+.mainContent {
+    background-color: white;
+    overflow: auto;
+    border: .5px solid lightgray;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.left {
+    width: 33%;
+    float: left;
+    padding: 0 20px 20px 0;
+    }
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+
+#page-container {
+    min-height:100%;
+    position:relative;
+  }
+
+@media only screen and (max-width: 768px) {
+    .left {
+        width: 50%;
+    }
+
+    .mainContent {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .left {
+        width: 100%;
+    }
+
+    .mainContent {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 95%
+    }
+}

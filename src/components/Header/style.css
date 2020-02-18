@@ -1,0 +1,19 @@
+nav {
+    background-color:#272D2D;
+}
+
+.navbar {
+ padding: 0px 50px;
+}
+
+
+
+.navName {
+    background-color: #1F1F28;
+    height: 100%;
+    padding: 15px;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}

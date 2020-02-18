@@ -1,0 +1,16 @@
+footer {
+  background-color: #599992;
+  border-top: 3px solid #599992;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:60px;   /* Height of the footer */
+  /*margin-top: 200px; */
+}
+
+footer > p {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
